@@ -7,7 +7,7 @@ Desenvolver uma aplicação de controle de tarefas no estilo **to-do list**, que
 
 - [X]  Criar Projeto Expo 
 - [X]  Organizar Projeto Expo 
-- [ ]  Implementar Tema
+- [X]  Implementar Tema
 - [ ]  Componentizar Elementos
 - [ ]  Finalizar Layout
 
