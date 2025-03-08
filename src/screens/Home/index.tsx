@@ -9,6 +9,7 @@ import theme from "../../styles/theme";
 
 import logo from "../../assets/logo.png"
 import clipboard from "../../assets/clipboard.png"
+import { Task } from "../../components/task";
 
 export default function Home() {
   const [fontLoaded] = useFonts({
@@ -70,6 +71,8 @@ export default function Home() {
           Crie tarefas e organize seus itens a faze
         </Text>
       </View>
+
+      <Task />
 
     </View>
   );
