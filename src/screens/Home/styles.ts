@@ -53,7 +53,8 @@ export const styles = StyleSheet.create({
   info: {
     flexDirection: "row",
     justifyContent: "space-between",
-    gap: 6
+    gap: 6,
+    marginBottom: 10
   },
   created: {
     color: theme.COLORS.BLUE,
@@ -90,6 +91,7 @@ export const styles = StyleSheet.create({
     color: theme.COLORS.GRAY[300],
     fontFamily: theme.FONT_FAMILY.BOLD,
     fontSize: theme.FONT_SIZE.MD,
+    marginTop: 14,
     fontWeight: "bold"
   },
   emptyRegular: {

@@ -18,7 +18,10 @@ export const styles = StyleSheet.create({
         color: theme.COLORS.GRAY[100],
         fontFamily: theme.FONT_FAMILY.REGULAR,
         fontSize: theme.FONT_SIZE.SM,
-        // textDecorationLine: "line-through"
+    },
+    completed: {
+        color: theme.COLORS.GRAY[300],
+        textDecorationLine: "line-through"
     },
     trash: {
         paddingHorizontal: 12,
